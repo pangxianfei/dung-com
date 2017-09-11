@@ -7,16 +7,33 @@
 //
 
 #import "AppDelegate.h"
-
+#import "DGHomePage.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
+- (void)showHomePage
+{
+    DGHomePage *home = [[DGHomePage alloc] init];
+    
+    self.window.rootViewController = home;
+    
+    [self.window makeKeyAndVisible];
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    [self showHomePage];
+    
+    
+    
+    
+    
     return YES;
 }
 
