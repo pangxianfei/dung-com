@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9461334D1F664A5500E8B5A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9461334C1F664A5500E8B5A6 /* main.m */; };
-		946133501F664A5500E8B5A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9461334F1F664A5500E8B5A6 /* AppDelegate.m */; };
-		946133531F664A5500E8B5A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946133521F664A5500E8B5A6 /* ViewController.m */; };
 		946133561F664A5500E8B5A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946133541F664A5500E8B5A6 /* Main.storyboard */; };
 		946133581F664A5500E8B5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946133571F664A5500E8B5A6 /* Assets.xcassets */; };
 		9461335B1F664A5500E8B5A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946133591F664A5500E8B5A6 /* LaunchScreen.storyboard */; };
+		9461336E1F664FC400E8B5A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9461336B1F664FC400E8B5A6 /* AppDelegate.m */; };
+		9461336F1F664FC400E8B5A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9461336D1F664FC400E8B5A6 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		946133481F664A5500E8B5A6 /* DUNGU.COM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUNGU.COM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9461334C1F664A5500E8B5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9461334E1F664A5500E8B5A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../DUNGU.COM/DUNGU.COM/AppDelegate.h; sourceTree = "<group>"; };
-		9461334F1F664A5500E8B5A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../DUNGU.COM/DUNGU.COM/AppDelegate.m; sourceTree = "<group>"; };
-		946133511F664A5500E8B5A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../DUNGU.COM/DUNGU.COM/ViewController.h; sourceTree = "<group>"; };
-		946133521F664A5500E8B5A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../DUNGU.COM/DUNGU.COM/ViewController.m; sourceTree = "<group>"; };
 		946133551F664A5500E8B5A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		946133571F664A5500E8B5A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../DUNGU.COM/DUNGU.COM/Assets.xcassets; sourceTree = "<group>"; };
+		946133571F664A5500E8B5A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9461335A1F664A5500E8B5A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9461335C1F664A5500E8B5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9461336A1F664FC400E8B5A6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9461336B1F664FC400E8B5A6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9461336C1F664FC400E8B5A6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9461336D1F664FC400E8B5A6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,8 @@
 		9461334A1F664A5500E8B5A6 /* DUNGU.COM */ = {
 			isa = PBXGroup;
 			children = (
-				946133681F664DCA00E8B5A6 /* Application */,
+				946133691F664FC400E8B5A6 /* Application */,
+				946133571F664A5500E8B5A6 /* Assets.xcassets */,
 				946133621F664D9900E8B5A6 /* Controllers */,
 				946133631F664D9900E8B5A6 /* Images */,
 				946133641F664D9900E8B5A6 /* Model */,
@@ -129,14 +130,13 @@
 			path = ../../View;
 			sourceTree = "<group>";
 		};
-		946133681F664DCA00E8B5A6 /* Application */ = {
+		946133691F664FC400E8B5A6 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				9461334E1F664A5500E8B5A6 /* AppDelegate.h */,
-				9461334F1F664A5500E8B5A6 /* AppDelegate.m */,
-				946133511F664A5500E8B5A6 /* ViewController.h */,
-				946133521F664A5500E8B5A6 /* ViewController.m */,
-				946133571F664A5500E8B5A6 /* Assets.xcassets */,
+				9461336A1F664FC400E8B5A6 /* AppDelegate.h */,
+				9461336B1F664FC400E8B5A6 /* AppDelegate.m */,
+				9461336C1F664FC400E8B5A6 /* ViewController.h */,
+				9461336D1F664FC400E8B5A6 /* ViewController.m */,
 			);
 			name = Application;
 			path = ../../Application;
@@ -214,8 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				946133531F664A5500E8B5A6 /* ViewController.m in Sources */,
-				946133501F664A5500E8B5A6 /* AppDelegate.m in Sources */,
+				9461336F1F664FC400E8B5A6 /* ViewController.m in Sources */,
+				9461336E1F664FC400E8B5A6 /* AppDelegate.m in Sources */,
 				9461334D1F664A5500E8B5A6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
